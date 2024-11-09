@@ -105,6 +105,28 @@ var movieDataList = [
     ]
   ),
   MovieDataPlace(
+    imageCover: "images/CoverMovie/A-Man-Called-Otto-Cover.jpg",
+    imageTrailer: "images.CoverTrailer/A-Man-Called-Otto-Trailer.png",
+    name: "A Man Called Otto",
+    starRating: "7.5/10",
+    genre: ["Comedy", "Drama"],
+    duration: "2h 6m",
+    language: "English and Indonesia",
+    rating: "PG-13",
+    description: "Otto Anderson is a 63-year-old widower, living in a rowhouse in suburban Pittsburgh. "
+        "Six months after losing his wife Sonya, a schoolteacher, Otto has become a cynical, fastidious crank. "
+        "Pushed into retirement from his job at a steel plant, he cancels his utilities and plans to kill h"
+        "imself to join his late wife.",
+    cast: ["Tom Hanks", "Mariana Treviño", "Rachel Keller", "Manuel Garcia-Rulfo",  "Cameron Britton"],
+    imageCast: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tom_Hanks_2016.jpg/800px-Tom_Hanks_2016.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Mariana_Trevi%C3%B1o.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Rachel_Keller_by_Gage_Skidmore.jpg/800px-Rachel_Keller_by_Gage_Skidmore.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Manuel_Garcia-Rulfo_%2831836120381%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cameron_Britton.jpg"
+    ]
+  ),
+  MovieDataPlace(
     imageCover: "",
     imageTrailer: "",
     name: "",
@@ -116,6 +138,6 @@ var movieDataList = [
     description: "",
     cast: [""],
     imageCast: [""]
-  ),
+  )
 ];
 
