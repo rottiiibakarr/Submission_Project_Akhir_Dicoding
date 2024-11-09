@@ -34,7 +34,7 @@ var movieDataList = [
     imageTrailer: "images/CoverTrailer/Bajrangi-Bhaijan-Trailer.jpg",
     name: "Bajrangi Bhaijan",
     starRating: "8.1/10",
-    genre: ["Action", "comedy", "Adventure", "Drama"],
+    genre: ["Action", "Adventure", "Comedy", "Drama"],
     duration: "2h 43m",
     language: "Hindi and Indonesia",
     rating: "PG-13",
@@ -46,10 +46,10 @@ var movieDataList = [
         "memecahkan rekor box office di India dan luar negeri.",
     cast: ["Salman Khan", "Kareena Kapoor", "Harshaali Malhotra", "Nawazuddin Siddiqui"],
     imageCast: [
-      "images/Cast/BajrangiBhaijan/Salman_Khan.jpg",
-      "images/Cast/BajrangiBhaijan/Kareena_Kapoor.jpg",
-      "images/Cast/BajrangiBhaijan/Harshaali_Malhotra.jpg",
-      "images/Cast/BajrangiBhaijan/Nawazuddin_Siddiqui.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Salman_Khan_at_Renault_Star_Guild_Awards.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kareena_Kapoor_in_2018.jpg",
+      "https://www.cinemacurry.com/wp-content/uploads/2024/08/Harshaali-Malhotra-3-1.jpg",
+      "https://images.hindustantimes.com/img/2024/07/08/550x309/Nawazuddin_1720430887744_1720430888205.jpg",
     ]
   ),
   MovieDataPlace(
@@ -57,7 +57,7 @@ var movieDataList = [
     imageTrailer: "images/CoverTrailer/Spider-Man-No-Way-Home-Trailer",
     name: "Spider-Man: No Way Home",
     starRating: "8.2/10",
-    genre: ["Action", "comedy", "Fantasy"],
+    genre: ["Action", "Comedy", "Fantasy", "Sci-Fi", "Superhero"],
     duration: "2h 28m",
     language: "English and Indonesia",
     rating: "PG-13",
@@ -69,15 +69,53 @@ var movieDataList = [
         "casting a spell that would make everyone forget Peter is Spider-Man, but it is corrupted when Peter "
         "repeatedly requests alterations to let his loved ones retain their memories. Strange contains the "
         "corrupted spell.",
-    cast: ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Jacob Batalon", "Jon Favreau"],
+    cast: ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Jacob Batalon", "Jon Favreau", "Tobey Maguire"],
     imageCast: [
-      "images/Cast/SpiderMan/Tom_Holland.jpg",
-      "images/Cast/SpiderMan/Zendaya.jpg",
-      "images/Cast/SpiderMan/Benedict_Cumberbatch.jpg",
-      "images/Cast/SpiderMan/Jacob_Batalon.jpg",
-      "images/Cast/SpiderMan/Jon_Favreau.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/800px-Tom_Holland_by_Gage_Skidmore.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/800px-Zendaya_-_2019_by_Glenn_Francis.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Benedict_Cumberbatch_in_2024_%28cropped%29.jpg/800px-Benedict_Cumberbatch_in_2024_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jacob_Batalon_%2828035642754%29_%28cropped%29.jpg/800px-Jacob_Batalon_%2828035642754%29_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jon_Favreau_2016.jpeg/800px-Jon_Favreau_2016.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Tobey_Maguire_2014.jpg"
     ]
   ),
-
+  MovieDataPlace(
+    imageCover: "images/CoverMovie/Adventure-Tintin-Cover.jpg",
+    imageTrailer: "images/CoverTrailer/Adventure-Tintin-Trailer.jpeg",
+    name: "The Adventure of Tintin: The Secret of the Unicorn",
+    starRating: "7.3/10",
+    genre: ["Action", "Adventure", "Crime", "Family", "Quest"],
+    duration: "1h 47m",
+    language: "English and Indonesia",
+    rating: "PG",
+    description: "In a Post-war Brussels, Belgium, while browsing in an outdoor market with his pet dog Snowy, "
+        "young journalist Tintin purchases a miniature model of a ship known as the Unicorn, but is accosted "
+        "by an Interpol officer named Barnaby and a ship collector named Ivan Ivanovitch Sakharine, who both "
+        "unsuccessfully attempt to purchase the model from Tintin. After Tintin takes the model home to his "
+        "apartment, it gets accidentally broken during a chase between Snowy and a cat. A parchment scroll "
+        "then slips out and rolls under a piece of furniture. Meanwhile, bumbling police detectives Thomson "
+        "and Thompson are on the trail of a pickpocket named Aristides Silk.",
+    cast: ["Jamie Bell", "Andy Serkis", "Daniel Craig", "Simon Pegg", "Nick Frost"],
+    imageCast: [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jamie_Bell_2011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Andy_Serkis_by_Gage_Skidmore.jpg/800px-Andy_Serkis_by_Gage_Skidmore.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Daniel_Craig_3%2C_2012.jpg/800px-Daniel_Craig_3%2C_2012.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Simon_Pegg_by_Gage_Skidmore_2.jpg/800px-Simon_Pegg_by_Gage_Skidmore_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nick_Frost_by_Gage_Skidmore_2.jpg/800px-Nick_Frost_by_Gage_Skidmore_2.jpg"
+    ]
+  ),
+  MovieDataPlace(
+    imageCover: "",
+    imageTrailer: "",
+    name: "",
+    starRating: "",
+    genre: [""],
+    duration: "",
+    language: "",
+    rating: "",
+    description: "",
+    cast: [""],
+    imageCast: [""]
+  ),
 ];
 
