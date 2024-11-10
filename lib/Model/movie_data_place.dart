@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class MovieDataPlace {
   String imageCover;
   String imageTrailer;
@@ -127,17 +128,117 @@ var movieDataList = [
     ]
   ),
   MovieDataPlace(
-    imageCover: "",
-    imageTrailer: "",
-    name: "",
-    starRating: "",
-    genre: [""],
-    duration: "",
-    language: "",
-    rating: "",
-    description: "",
-    cast: [""],
-    imageCast: [""]
-  )
+    imageCover: "images/CoverMovie/Saving-Private-Ryan-Cover.jpg",
+    imageTrailer: "images/CoverTrailer/Saving-Private-Ryan-Trailer.jpg",
+    name: "Saving Private Ryan",
+    starRating: "8.6/10",
+    genre: ["Epic", "War Epic", "Drama", "War"],
+    duration: "2h 49m",
+    language: "English and Indonesia",
+    rating: "R",
+    description: "On June 6, 1944, the U.S. Army lands at Omaha Beach as part of the Normandy invasion, "
+        "incurring major losses against the artillery and machine gun fire of the heavily fortified German "
+        "forces. Initially dazed by the chaotic battle, 2nd Ranger Battalion Captain John H. Miller takes "
+        "command of a surviving group and leads a successful infiltration behind German lines to secure victory.",
+    cast: ["Tom Hanks", "Edward Burns", "Edward Sizemore", "Jeremy Davies", "Vin Diesel", "Adam Goldberg"],
+    imageCast: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tom_Hanks_2016.jpg/800px-Tom_Hanks_2016.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/Edward_Burns_cropped.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tom_Sizemore_by_Jean_Claude_Vera_in_April_2011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/Jeremydavies.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vin_Diesel_cropped.jpg/1280px-Vin_Diesel_cropped.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Goldberg_Winter_2023_%28cropped%29.jpg/800px-Goldberg_Winter_2023_%28cropped%29.jpg"
+    ]
+  ),
+  MovieDataPlace(
+      imageCover: "",
+      imageTrailer: "",
+      name: "Dunkirk",
+      starRating: "7.8/10",
+      genre: ["Action", "Action Epic", "History", "Historical Epic", "War", "War Epic"],
+      duration: "1h 46m",
+      language: "English and Indonesia",
+      rating: "PG-13",
+      description: "In 1940, during the Battle of France, Allied soldiers retreat to Dunkirk encircled by the "
+          "enemy. Tommy flees through the perimeter held by French troops to the beach, where thousands await "
+          "evacuation, and helps Gibson to bury a body. After Luftwaffe dive-bombers attack, they attempt to "
+          "board a hospital ship at the single, vulnerable mole available for embarking on deep-draft ships, "
+          "by rushing a wounded man on a stretcher but are ordered off. They overhear Commander Bolton, "
+          "Colonel Winnant and a Rear Admiral discuss the best way to get their army evacuated. The ship is "
+          "sunk by dive bombers; Tommy saves a Highlanders regiment soldier, Alex. The three board a destroyer, "
+          "but it is hit by a torpedo before it can depart; Gibson saves Tommy and Alex as the ship sinks, and "
+          "they return to the beach.",
+      cast: ["Fionn Whitehead", "Tom Glynn-Carney", "Jack Lowden", "Harry Styles", "Aneurin Bernard"],
+      imageCast: [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Fionn_Whitehead_in_2019_%28cropped%29.jpg/800px-Fionn_Whitehead_in_2019_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tom_Glynn-Carney_by_Gage_Skidmore.jpg/800px-Tom_Glynn-Carney_by_Gage_Skidmore.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/96/Jack_Lowden.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/HarryStyles2013-corte2.png/800px-HarryStyles2013-corte2.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Aneurin_Barnard_at_the_premiere_of_Goldfinch%2C_2019_Toronto_Film_Festival_%2848810071091%29.jpg/220px-Aneurin_Barnard_at_the_premiere_of_Goldfinch%2C_2019_Toronto_Film_Festival_%2848810071091%29.jpg"
+      ]
+  ),
+  MovieDataPlace(
+      imageCover: "images/CoverMovie/Napoleon-Cover.jpg",
+      imageTrailer: "images/CoverTrailer/Napoleon-Trailer.jpg",
+      name: "Napoleon",
+      starRating: "6.4/10",
+      genre: ["Action", "Action Epic", "Biography", "Docudrama", "Epic", "War Epic"],
+      duration: "2h 38m",
+      language: "English and Indonesia",
+      rating: "R",
+      description: "In 1793, amid the French Revolution, young army officer Napoleon Bonaparte watches Marie "
+          "Antoinette beheaded by the guillotine. Later that year, Revolutionary leader Paul Barras has "
+          "Napoleon manage the Siege of Toulon; he storms the city and repels the British ships with artillery. "
+          "After Maximilien Robespierre is deposed and executed at the end of the Reign of Terror, French "
+          "leaders, including Napoleon, attempt to restore stability. Again employing artillery, Napoleon "
+          "suppresses the royalist insurrection on 13 Vendémiaire in 1795.",
+      cast: ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim", "Rupert Everett", "Ludivine Sagnier"],
+      imageCast: [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Joaquin_Phoenix-64908_%28cropped%29.jpg/800px-Joaquin_Phoenix-64908_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vanessa_Kirby_at_the_2024_Toronto_International_Film_Festival_08_%28Cropped%29.jpg/800px-Vanessa_Kirby_at_the_2024_Toronto_International_Film_Festival_08_%28Cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/77/Tahar_Rahim_Samba_avp_2014_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rupert_Everett_-Sofia.jpg/800px-Rupert_Everett_-Sofia.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ludivine_Sagnier_2013.jpg"
+      ]
+  ),
+  MovieDataPlace(
+      imageCover: "",
+      imageTrailer: "",
+      name: "",
+      starRating: "",
+      genre: [""],
+      duration: "",
+      language: "",
+      rating: "",
+      description: "",
+      cast: [""],
+      imageCast: [""]
+  ),
+  MovieDataPlace(
+      imageCover: "",
+      imageTrailer: "",
+      name: "",
+      starRating: "",
+      genre: [""],
+      duration: "",
+      language: "",
+      rating: "",
+      description: "",
+      cast: [""],
+      imageCast: [""]
+  ),
+  MovieDataPlace(
+      imageCover: "",
+      imageTrailer: "",
+      name: "",
+      starRating: "",
+      genre: [""],
+      duration: "",
+      language: "",
+      rating: "",
+      description: "",
+      cast: [""],
+      imageCast: [""]
+  ),
 ];
 
