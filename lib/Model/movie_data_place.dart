@@ -184,7 +184,7 @@ var movieDataList = [
       starRating: "6.4/10",
       genre: ["Action", "Action Epic", "Biography", "Docudrama", "Epic", "War Epic"],
       duration: "2h 38m",
-      language: "English and Indonesia",
+      language: "English",
       rating: "R",
       description: "In 1793, amid the French Revolution, young army officer Napoleon Bonaparte watches Marie "
           "Antoinette beheaded by the guillotine. Later that year, Revolutionary leader Paul Barras has "
@@ -202,43 +202,73 @@ var movieDataList = [
       ]
   ),
   MovieDataPlace(
-      imageCover: "",
-      imageTrailer: "",
-      name: "",
-      starRating: "",
-      genre: [""],
-      duration: "",
-      language: "",
-      rating: "",
-      description: "",
-      cast: [""],
-      imageCast: [""]
+      imageCover: "images/CoverMovie/Agak-Laen-Cover.jpg",
+      imageTrailer: "images/CoverTrailer/Agak-Laen-Trailer.jpg",
+      name: "Agak Laen",
+      starRating: "7.6/10",
+      genre: ["Comedy"],
+      duration: "1h 59m",
+      language: "Indonesia",
+      rating: "PG-13",
+      description: "Bene, Boris, Jegel, dan Oki merupakan empat sekawan yang telah berteman sejak lama. Namun, "
+          "kondisi ekonomi mereka masih terpuruk meski sudah lama merantau. Keempat sahabat itu akhirnya "
+          "melihat peluang baru saat pasar malam baru didirikan di dekat kediaman mereka. Bene, Boris, Jegel, "
+          "dan Oki memutuskan membuat wahana rumah hantu di pasar malam tersebut. Mereka tidak hanya mengelola "
+          "rumah hantu itu, tetapi juga menyiapkan konsep hingga menjadi hantu untuk menakut-nakuti pengunjung.",
+      cast: ["Bene Dion", "Oki Rengga", "Indra Jegel", "Boris Bokir", "Tissa Biani"],
+      imageCast: [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SNP-02704.jpg/800px-SNP-02704.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/SNP-02724.jpg/800px-SNP-02724.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SNP-02696.jpg/800px-SNP-02696.jpg",
+        "https://asset-2.tstatic.net/tribunnews/foto/bank/images/boris-bokir-03.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/08/Tissa_Biani_on_Media_Indonesia_-_04.17.png"
+      ]
   ),
   MovieDataPlace(
-      imageCover: "",
-      imageTrailer: "",
-      name: "",
-      starRating: "",
-      genre: [""],
-      duration: "",
-      language: "",
-      rating: "",
-      description: "",
-      cast: [""],
-      imageCast: [""]
+      imageCover: "images/CoverMovie/Lincoln-Cover.jpg",
+      imageTrailer: "images/CoverTrailer/Lincoln-Trailer.jpg",
+      name: "Lincoln",
+      starRating: "7.3/10",
+      genre: ["Biography", "Docudrama", "Drama", "History", "Political Drama", "War"],
+      duration: "2h 30m",
+      language: "English",
+      rating: "PG-13",
+      description: "In January 1865, President Abraham Lincoln expects the Civil War to end soon, with the "
+          "defeat of the Confederate States. He is concerned that his 1863 Emancipation Proclamation may be "
+          "discarded by the courts after the war and that the proposed Thirteenth Amendment will be defeated "
+          "by the returning slave states. He feels it imperative to pass the amendment beforehand, to foreclose "
+          "any possibility that freed slaves might be re-enslaved.",
+      cast: ["Daniel Day-Lewis", "Sally Field", "Joseph Gordon Levitt", "Gloria Reuben"],
+      imageCast: [
+        "https://upload.wikimedia.org/wikipedia/commons/1/12/Daniel_Day_Lewis_26_May_2013.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Sally_Field_%2811205%29_%28cropped%29.jpg/800px-Sally_Field_%2811205%29_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Joseph_Gordon-Levitt_TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%28cropped%29.jpeg/800px-Joseph_Gordon-Levitt_TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%28cropped%29.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Actress_gloria_reuben_photo_by_christopher_peterson_cropped_retouched.jpg"
+      ]
   ),
   MovieDataPlace(
-      imageCover: "",
-      imageTrailer: "",
-      name: "",
-      starRating: "",
-      genre: [""],
-      duration: "",
-      language: "",
-      rating: "",
-      description: "",
-      cast: [""],
-      imageCast: [""]
+      imageCover: "images/CoverMovie/Emperor-of-Paris.jpg",
+      imageTrailer: "images/CoverTrailer/Emperor-of-Paris.jpg",
+      name: "Emperor of Paris",
+      starRating: "6.3/10",
+      genre: ["Adventure", "Crime", "History", "Thriller", "True Crime"],
+      duration: "2h",
+      language: "English",
+      rating: "TV-MA",
+      description: "The film is about an ex-con and master escape artist turned police officer. Under the "
+          "reign of Napoleon, Francois Vidocq cuts a notorious figure in the Parisian underworld - he is the "
+          "only man to have escaped the country's most terrifying penal colonies. However, some years later, "
+          "he switched sides and gets hired as a detective in the French police. He founded his own private "
+          "detective agency and became one of the greatest detectives of all times. However, his dark past "
+          "still follows him...",
+      cast: ["Vincent Cassel", "Freya Mavor", "Denis Ménochet", "August Diehl", "James Thiérrée"],
+      imageCast: [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a3/Vincent_Cassel_Cannes_2018.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Freya_Mavor_at_Premiere_%C3%80_Propos_de_Joan_Pircture_1_%28cropped%29.jpg/800px-Freya_Mavor_at_Premiere_%C3%80_Propos_de_Joan_Pircture_1_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Denis_M%C3%A9nochet_at_Berlinale_2022.jpg/1280px-Denis_M%C3%A9nochet_at_Berlinale_2022.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/August_Diehl_asv2024-09.jpg/220px-August_Diehl_asv2024-09.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a0/James_Thierr%C3%A9e_2010.jpg"
+      ]
   ),
 ];
 
